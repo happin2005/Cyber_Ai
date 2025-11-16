@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<body>
+  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CyberGuardian AI - National Level</title>
+  <link rel="stylesheet" href="stylus.css">
+</head>
+
+<body>
+
+<header>
+  <h1>⚡ CyberGuardian AI</h1>
+  <p>Your Personal Cyber Safety Companion</p>
+</header>
+
+<nav>
+  <button onclick="showPage('msgChecker')">Message Checker</button>
+  <button onclick="showPage('passwordChecker')">Password Checker</button>
+  <button onclick="showPage('reportDex')">Phone Safety Report</button>
+  <button onclick="showPage('securitySteps')">Safety Tips</button>
+</nav>
+
+<!-- =======================
+     MESSAGE CHECKER
+======================== -->
+<section id="msgChecker" class="page">
+  <h2>Message Safety Checker</h2>
+  <textarea id="messageInput" placeholder="Paste suspicious message here..."></textarea>
+  <button id="scanMessageBtn">Check Message</button>
+  <div id="messageResult"></div>
+  <div id="aiMessageAnalysis" class="ai-analysis"></div>
+  <div id="messageRiskScore" class="risk-score"></div>
+</section>
+
+<!-- =======================
+     PASSWORD CHECKER
+======================== -->
+<section id="passwordChecker" class="page">
+  <h2>Password Strength Checker</h2>
+  <input type="text" id="passwordInput" placeholder="Enter your password">
+  <button id="checkPasswordBtn">Check Strength</button>
+  <button id="generatePasswordBtn">Generate Strong Password</button>
+  <div id="passwordResult"></div>
+  <div class="pw-meter">
+    <div id="pwMeterBar"></div>
+  </div>
+  <div id="pwSuggestions"></div>
+</section>
+
+<!-- =======================
+     PHONE SAFETY REPORT
+======================== -->
+<section id="reportDex" class="page">
+  <h2>Phone Safety Report</h2>
+  <button id="runScanBtn">Run Phone Scan</button>
+  <button id="exportReportBtn">Export Report</button>
+  <div id="reportOutput"></div>
+  <canvas id="reportChart" width="400" height="200"></canvas>
+</section>
+
+<!-- =======================
+     SAFETY TIPS
+======================== -->
+<section id="securitySteps" class="page">
+  <h2>Cyber Safety Tips for Teenagers</h2>
+  <ul id="tipsList">
+    <li><input type="checkbox"> Never share OTP or passwords</li>
+    <li><input type="checkbox"> Do not click unknown links</li>
+    <li><input type="checkbox"> Use strong passwords with symbols & numbers</li>
+    <li><input type="checkbox"> Never talk to strangers online</li>
+    <li><input type="checkbox"> Turn on 2-step verification</li>
+    <li><input type="checkbox"> Avoid installing apps outside Play Store/App Store</li>
+    <li><input type="checkbox"> Report cybercrime to authorities</li>
+  </ul>
+  <button id="calcSafetyScore">Check Safety Score</button>
+  <div id="safetyScore"></div>
+  <div id="safetyBadge"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
